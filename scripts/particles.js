@@ -26,4 +26,4 @@ particles.push(new particle(100, 50, 0, 0, 0, "255,20,147", "0.8", 260, 290, 1))
 particles.push(new particle(250, 250, 0, 0, 2, "255,255,0", "1", 140, 170, 0.5));
 particles.push(new particle(150, 150, 0, 0, 6, "255,0,255", "1", 170, 190, 0.8));
 particles.push(new particle(150, 300, 0, 0, 8, "0,255,0", "1", 170, 190, 0.8));
-//setInterval(draw,33)
+setInterval(draw,33)
