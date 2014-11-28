@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+   font-family: "magneta",sans-serif;
+}
+canvas {
+    position: absolute;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    
+    -moz-font-feature-settings: "liga=1, dlig=1";
+    -ms-font-feature-settings: "liga", "dlig";
+    -webkit-font-feature-settings: "liga", "dlig";
+    -o-font-feature-settings: "liga", "dlig";
+    font-feature-settings: "liga", "dlig";
+    
+    color: #536878;
+   -webkit-text-fill-color: transparent;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: white;
+    
+    
+    font-size: 13em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    z-index: 1;
+    /*text-shadow: -0.06em 0 0 rgba(255,0,0,0.4), 0.06em 0 0 rgba(0,255,255,0.4);
+    text-shadow:0px 0px 0 rgb(246,246,246),-1px 1px 0 rgb(238,238,238),-2px 2px 0 rgb(229,229,229),-3px 3px 0 rgb(221,221,221),-4px 4px 0 rgb(212,212,212),-5px 5px 0 rgb(204,204,204),-6px 6px 0 rgb(195,195,195), -7px 7px 0 rgb(186,186,186),-8px 8px 7px rgba(0,0,0,0),-8px 8px 1px rgba(0,0,0,0.5),0px 0px 7px rgba(0,0,0,.2);}*/
+}
